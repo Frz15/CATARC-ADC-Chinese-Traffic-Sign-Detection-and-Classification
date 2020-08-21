@@ -4,7 +4,7 @@
 
   数据集将图片中的交通指示牌进行分类，主要分为 *Forbidden*,*Indicated* 和 *Warning* 三大类，而三大类下又可以分为若干小类。其中，我们将中国主要的交通指示牌按照大类进行分类，列于下图中。
 
-![concate](C:\Users\Runze FENG\Desktop\研二上\concate.png)
+![concate](./concate.png)
 
 + 
 
@@ -22,7 +22,7 @@
 
   
 
-  ![dataset_distribution](C:\Users\Runze FENG\Desktop\研二上\dataset_distribution.png)
+  ![dataset_distribution](./dataset_distribution.png)
 
   数据集中数目较多的前三十种指示牌类别数目分布列于上图，我们可以看出数目最多的前三十种指示牌占据了数据集的大约86%。另外，有53中指示牌的实例数目多于100（Tsinghua-Tencent 100K中此数目为30）。
 
