@@ -35,6 +35,9 @@
   - 使用yolov3作为检测网络，其对应于192.168.14.18服务器下adc2家目录下的 */yolov3* 文件夹。文件夹中包含 *train.py*, *detect.py*文件，可以用于训练和检测，具体使用方法可参见[yolov3](https://github.com/ultralytics/yolov3)。在训练过程将所有 *epoch = 10\*n* 的网络参数存储于 */weight* 文件夹下。
 
   - 另外，如果将*detect.py*文件中将变量*classify* 设置为True，可以对检测目标进行分类；如果将*classify*设置为False，则只进行检测。
+  - 运行代码前需要执行
+  ```shell
+  conda activate yolov3
   - 在进行训练的时候，可能会因为不同参数位于不同的GPU上，如果遇到这种问题，可以在运行Python文件时，在命令前加上 *CUDA_VISIBLE_DEVICES=0*。
 
 + **Classification Net**
