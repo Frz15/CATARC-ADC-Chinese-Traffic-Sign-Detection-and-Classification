@@ -38,6 +38,7 @@
   - 运行代码前需要执行
   ```shell
   conda activate yolov3
+  
   - 在进行训练的时候，可能会因为不同参数位于不同的GPU上，如果遇到这种问题，可以在运行Python文件时，在命令前加上 *CUDA_VISIBLE_DEVICES=0*。
 
 + **Classification Net**
