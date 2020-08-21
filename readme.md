@@ -1,4 +1,4 @@
-<img src="C:\Users\Runze FENG\Desktop\研二上\Architecture.png" alt="Architecture" style="zoom:67%;" />
+<img src="./Architecture.png" alt="Architecture" style="zoom:67%;" />
 
 + **Dataset**
 
