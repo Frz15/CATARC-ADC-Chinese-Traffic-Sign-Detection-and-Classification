@@ -26,7 +26,7 @@
 
   数据集中数目较多的前三十种指示牌类别数目分布列于上图，我们可以看出数目最多的前三十种指示牌占据了数据集的大约86%。另外，有53中指示牌的实例数目多于100（Tsinghua-Tencent 100K中此数目为30）。
 
-  ![dataset_distribution1](C:\Users\Runze FENG\Desktop\研二上\dataset_distribution1.png)
+  ![dataset_distribution1](./dataset_distribution1.png)
 
 上图显示出了数据集中不同category的交通指示牌的数目分布情况。其中 *forbidden* 类型的交通指示牌占据了数据集的大半部分。
 
